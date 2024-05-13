@@ -4,14 +4,14 @@ producteur.py : It's job is to send the images
 comsommateur.py : It's job is to read the images 
 
 To start this project you have to:
-1- Start Zookeeper using these commands:
+- Start Zookeeper using these commands:
 C:\Users\hp>cd C:\kafka_2.12-3.7.0
 C:\kafka_2.12-3.7.0>start bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 
-2- Start a kafka server using this command:
+- Start a kafka server using this command:
 C:\kafka_2.12-3.7.0>start bin\windows\kafka-server-start.bat config\server.properties
 
-3- Open your Python IDE and run these commands on separated Terminal windows:
+- Open your Python IDE and run these commands on separated Terminal windows:
 bin/zookeeper-server-start.sh config/zookeeper.properties 
 bin/kafka-server-start.sh config/server.properties
 
