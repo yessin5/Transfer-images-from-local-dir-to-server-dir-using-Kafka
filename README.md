@@ -1,4 +1,3 @@
-# Transfer-images-from-local-dir-to-server-dir-using-Kafka
 The goal of this project is to transfer images from local directory named "local_dir" to a server directory named "server" usink Kafka and Kafka-python
 The project consists of 2  python scripts:
 producteur.py : It's job is to send the images
@@ -18,5 +17,5 @@ bin/kafka-server-start.sh config/server.properties
 
 
 Requirements:
-Apache Kafka: https://kafka.apache.org/downloads
-Kafka library on python: https://pypi.org/project/kafka-python/
+- Apache Kafka: https://kafka.apache.org/downloads
+- Kafka library on python: https://pypi.org/project/kafka-python/
